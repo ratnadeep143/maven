@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="Chrome"/>
+    <classes>
+      <class name="test.TestClass1">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="verifyReleaseDate"/>
+          <include name="verifyCountry"/>
+          <include name="createPOMObject"/>
+          <include name="openBrowser"/>
+          <include name="logoutFromApplication"/>
+          <include name="searchMovieByName"/>
+        </methods>
+      </class> <!-- test.TestClass1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
